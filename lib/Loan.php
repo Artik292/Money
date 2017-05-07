@@ -9,6 +9,7 @@ class Loan extends \atk4\data\Model {
 		$this->addField('amount');
 		$this->addField('date');
 		$this->addField('friends_id');
+		$this->hasOne('friends');
 	}
 }
 ?>
